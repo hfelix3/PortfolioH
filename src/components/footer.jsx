@@ -1,13 +1,15 @@
 // #5 STEP
-import Footer from '../components/footer.jsx';
 
-    function footer() {
+    function Footer() {
+        return(
         <div>
-            <section>
-                <h1>Footer</h1>
-            </section>
-            <Footer />
+            <footer>
+                <small>
+                    Copyright © 2024 PorfolioH. All Rights Reserved.
+                </small>
+            </footer>
         </div>
+        )
     }
 
-export default footer;
+export default Footer;

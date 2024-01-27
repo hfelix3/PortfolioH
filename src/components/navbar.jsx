@@ -3,7 +3,6 @@ export default function Navbar() {
 
     return (
         <nav className="nav">
-            <section>
                 {/* make Anchors buttons? that have an event handler like onClick={props.clickHandler} "from the parent file" or onClick={function name here} "within file calling on the function" look at 40:00 in react day 2 zoom */}
                 <div style={linkStyle}>
                     <a href="#">About</a>
@@ -17,7 +16,6 @@ export default function Navbar() {
                 <div style={linkStyle}>
                     <a href="#">Resume</a>
                 </div>
-            </section>
         </nav>
     );
 }

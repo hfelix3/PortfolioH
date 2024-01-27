@@ -2,6 +2,7 @@
 
 .header {
     background: black;
+    margin: 1px;
 }
 
 .header h1 {
@@ -10,9 +11,16 @@
 }
 
 .nav {
-    display: 'flex';
-    flex direction: 'row';
-    align Items: 'flex-end';
-    justify Content: 'flex-end';
-    font Family: 'helvetica';
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-family: helvetica;
 }
+
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color: #abbaba;
+    color: #000;
+  }
