@@ -1,4 +1,13 @@
 // #4 STEP
-import footer from './components/footer.jsx';
+import Content from '../components/content.jsx';
 
-export default P;
+    function content() {
+        <div>
+            <section>
+                <h1>content</h1>
+            </section>
+            <Content />
+        </div>
+    }
+
+export default content;

@@ -1,1 +1,18 @@
 /* TODO:ADD STYLE */
+
+.header {
+    background: black;
+}
+
+.header h1 {
+    color: white;
+    text-align: left;
+}
+
+.nav {
+    display: 'flex';
+    flex direction: 'row';
+    align Items: 'flex-end';
+    justify Content: 'flex-end';
+    font Family: 'helvetica';
+}
