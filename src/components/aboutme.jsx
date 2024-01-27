@@ -1,9 +1,11 @@
-function Aboutme() {
+import AboutMe from '../components/aboutme.jsx';
+
+function Aboutme(props) {
   return (
     <div>
       <h3>About Me</h3>
       <section>
-        <img src='./assets/images/IMG_0654.JPG'/>
+        <img class= "profilePic" src='src/assets/images/IMG_0654.JPG'/>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad

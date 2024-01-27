@@ -18,9 +18,30 @@
     font-family: helvetica;
 }
 
+.profilePic {
+    height: 100px;
+    width: 100px;
+}
+
+.applications {
+    height: 100px;
+    width: 100px;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+a {
+    margin: 5px;
+}
+
 footer {
     text-align: center;
     padding: 5px;
     background-color: #abbaba;
     color: #000;
-  }
+}
