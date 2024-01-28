@@ -32,7 +32,6 @@ Here I share my projects skills ive gathered overtime displaying my experience b
 * [Installation](#Installation)
 * [Usage](#Usage)
 * [How to contribute](#How-to-contribute)
-* [Testing](#testing)
 * [Links](#Links)
 * [License](#License)
 
@@ -56,7 +55,7 @@ In your browser, navigate to http://localhost:3001/
 
 ## Usage
 
-Open the application here: < url >
+Open the application here: https://github.com/hfelix3/PortfolioH
 
 Log in or create a new account.
 
@@ -79,15 +78,11 @@ When your changes are ready to be incorporated, create a pull request into the m
 
 Your changes will be reviewed and approved as appropriate. 
 
-## Testing
-
 
 
 ## Links
 
 ### [Github Profile](https://github.com/hfelix3/PortfolioH/)
-
-### [Walkthrough video]()
 
 # MIT License
 
