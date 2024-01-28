@@ -30,7 +30,7 @@ function ResumeH(prop) {
           </section>
       </div>
 
-        <a class="downloadLink" src="" download>Click here to download my resume</a>
+        <a class="downloadLink" href="src/assets/Resume.pdf" src="" download>Click here to download my resume PDF</a>
 
       </div>
     );

@@ -49,6 +49,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 30px;
 }
 
 .applications {
@@ -118,6 +119,11 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: red;
+}
+
+.downloadLink:active {
+    color: blue;
 }
 
 a {
