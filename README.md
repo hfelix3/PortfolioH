@@ -69,7 +69,7 @@ Once you have logged in, navigate to .
 
 ## Deployed Application
 
-![Image](./public/images/localhost_3001.png)
+![Screenshot 2024-01-27 at 9 49 51 PM](https://github.com/hfelix3/PortfolioH/assets/141383937/96fcc5ee-bf52-4141-80f1-5a6d9afdc9d3)
 
 ## How to contribute
 
