@@ -4,15 +4,15 @@ import PortfolioH from '../components/portfolio.jsx';
 import ContactH from '../components/contact.jsx';
 import ResumeH from '../components/resume.jsx';
 
-function Content({ AboutMeValue }) {
+function Content({ AboutMeValue, PortfolioValue, ContactValue, ResumeValue }) {
 
         return(
         <div>
-            <section>
-                <h1>content section:</h1>
-            {AboutMeValue ? <Aboutme/> : null},
-            {PortfolioValue ? <PortfolioH/> : null},
-            {ContactValue ? <ContactH/> : null},
+                <h1>Welcome!</h1>
+            <section class="contentSection">
+            {AboutMeValue ? <Aboutme/> : null}
+            {PortfolioValue ? <PortfolioH/> : null}
+            {ContactValue ? <ContactH/> : null}
             {ResumeValue ? <ResumeH/> : null}
             </section>
         </div>

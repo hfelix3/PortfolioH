@@ -1,9 +1,10 @@
 function ResumeH(prop) {
     return (
       <div>
-        <h3>My Resume</h3>
-        <a href="./path.pdf" download>Click here to download my resume</a>
-            <p>Front-end Proficiencies:</p>
+        <h2 class="resumeTitle">My Resume</h2>
+        <div class="Proficiencies">
+          <section class="frontEnd">
+            <h4>Front-end Proficiencies:</h4>
             <ul>
                 <li>HTML</li>
                 <li>CSS</li>
@@ -13,8 +14,10 @@ function ResumeH(prop) {
                 <li>React</li>
                 <li>Bootstrap</li>
             </ul>
+          </section>
 
-            <p>Back-end Proficiencies:</p>
+          <section class="backEnd">
+            <h4>Back-end Proficiencies:</h4>
             <ul>
                 <li>APIs</li>
                 <li>Node</li>
@@ -24,6 +27,11 @@ function ResumeH(prop) {
                 <li>REST</li>
                 <li>GraphQL</li>
             </ul>
+          </section>
+      </div>
+
+        <a class="downloadLink" src="" download>Click here to download my resume</a>
+
       </div>
     );
 }

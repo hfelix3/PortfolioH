@@ -1,8 +1,16 @@
 /* TODO:ADD STYLE */
+* {
+    font-family: helvetica;
+    color: darkslategrey;
+    margin: 3px;
+}
 
 .header {
-    background: black;
-    margin: 1px;
+    background-color: #abbaba;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0.5em;
 }
 
 .header h1 {
@@ -15,17 +23,74 @@
     flex-direction: row;
     align-items: flex-end;
     justify-content: flex-end;
-    font-family: helvetica;
+}
+
+button {
+    display: inline-block;
+    padding: 0.7em 1.7em;
+    font-size: 12px;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+}
+
+.contentSection {
+    border-radius: 5px;
+    box-shadow: inset 2px 5px 30px lightgray;
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.portfolioImages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.applications {
+    border-radius: 1em;
+    margin: 50px;
+}
+
+.leftSide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rightSide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .profilePic {
     height: 100px;
     width: 100px;
+    border-radius: 5em;
+}
+
+.aboutMeDescription {
+    padding: 50px;
+    border-radius: 0.5em;
+}
+
+p {
+    text-indent: 1em;
 }
 
 .applications {
-    height: 100px;
-    width: 100px;
+    height: 250px;
+    width: 400px;
 }
 
 .links {
@@ -33,6 +98,26 @@
     flex-direction: row;
     align-items: flex-end;
     justify-content: flex-end;
+}
+
+.resumeTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Proficiencies {
+    display: flex;
+    justify-content: center;
+}
+
+.frontEnd, .backEnd {
+    padding: 50px;
+}
+.downloadLink {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 a {
@@ -44,4 +129,5 @@ footer {
     padding: 5px;
     background-color: #abbaba;
     color: #000;
+    border-radius: 0.5em;
 }

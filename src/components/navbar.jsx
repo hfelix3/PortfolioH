@@ -7,20 +7,32 @@ export default function Navbar() {
     let [AboutMeValue, setAboutMe] = useState(false)
     const handleClickAbout = () => {
         setAboutMe(true);
+        setPortfolio(false);
+        setContact(false);
+        setResume(false);
     }
 
     let [PortfolioValue, setPortfolio] = useState(false)
     const handleClickPort = () => {
+        setAboutMe(false);
         setPortfolio(true);
+        setContact(false);
+        setResume(false);
     }
 
     let [ContactValue, setContact] = useState(false)
     const handleClickCont = () => {
+        setAboutMe(false);
+        setPortfolio(false);
         setContact(true);
+        setResume(false);
     }
 
     let [ResumeValue, setResume] = useState(false)
     const handleClickRes = () => {
+        setAboutMe(false);
+        setPortfolio(false);
+        setContact(false);
         setResume(true);
     }
 

@@ -1,11 +1,11 @@
 function ContactH(prop) {
     return (
       <div>
-        <h3>Contact Me</h3>
+        <h2 class ='contactForm'>Contact Me</h2>
         <form class ='contactForm'>
-          <input placeholder="name"/>
-          <input placeholder="name"/>
-          <textarea id="textedTyped" placeholder="message here" rows="5" cols="33"></textarea>
+          <input placeholder="Enter Name"/>
+          <input placeholder="Enter E-mail"/>
+          <textarea id="textedTyped" placeholder="Write a message here" rows="5" cols="33"></textarea>
           <button type="submit">Submit</button>
         </form>
       </div>

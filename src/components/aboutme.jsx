@@ -1,17 +1,19 @@
 function Aboutme(prop) {
   return (
     <div>
-      <h3>About Me</h3>
-      <section>
+      <section class="aboutMeDescription">
+      <h2>About Me</h2>
         <img class= "profilePic" src='src/assets/images/IMG_0654.JPG'/>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+        My name is Hector and I'm an aspiring web developer looking to expand my skills. I've gained good experience in HTML, CSS, JavaScript and frameworks like React in my current studies. The insurance industry taught me the importance of understanding user needs when designing interfaces. While I'm proud of my progress so far, I know I still have so much more to learn in this rapidly changing field.
+        </p>
+        
+        <p>
+        Right now I'm focused on finishing my certificate program at Arizona State University. The courses are challenging but rewarding, pushing me to grow as a developer. Although I've been able to pick up new systems quickly in the past, I understand that mastering web development requires ongoing effort. I still consider myself a student.
+        </p>
+
+        <p>
+        With my logical thinking and desire to help people, I hope to someday create web solutions that make a real difference. I know listening closely to client needs is crucial. I look forward to transitioning into a full-time software engineering role where I can keep enhancing my skills. I'm eager to take on new challenges that will expand my coding abilities. Above all, I try to stay humble and open-minded. This field requires lifelong dedication and practice. But I'm up for the challenge! I can't wait to see where my web development journey takes me next.
         </p>
       </section>
     </div>
