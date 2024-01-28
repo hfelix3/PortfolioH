@@ -1,4 +1,4 @@
-function Contact() {
+function ContactH(prop) {
     return (
       <div>
         <h3>Contact Me</h3>
@@ -12,4 +12,4 @@ function Contact() {
     );
 }
 
-export default Contact;
+export default ContactH;

@@ -1,4 +1,4 @@
-function Resume() {
+function ResumeH(prop) {
     return (
       <div>
         <h3>My Resume</h3>
@@ -28,4 +28,4 @@ function Resume() {
     );
 }
 
-export default Resume;
+export default ResumeH;

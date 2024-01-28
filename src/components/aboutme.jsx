@@ -1,6 +1,4 @@
-import AboutMe from '../components/aboutme.jsx';
-
-function Aboutme(props) {
+function Aboutme(prop) {
   return (
     <div>
       <h3>About Me</h3>

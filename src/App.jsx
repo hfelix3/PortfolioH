@@ -12,7 +12,6 @@ function App() {
             {/* <PortfolioH /> */}
             <Header />
             <Navbar />
-            <Content />
             <Footer />
         </div>
     );

@@ -1,4 +1,4 @@
-function PortfolioH() {
+function PortfolioH(prop) {
     return (
       <div>
         <h3>Porfolio</h3>

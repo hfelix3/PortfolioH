@@ -1,15 +1,21 @@
 // #4 STEP
-// import AboutMe from '../components/aboutme.jsx';
+import Aboutme from '../components/aboutme.jsx';
+import PortfolioH from '../components/portfolio.jsx';
+import ContactH from '../components/contact.jsx';
+import ResumeH from '../components/resume.jsx';
 
-    function Content() {
+function Content({ AboutMeValue }) {
+
         return(
         <div>
             <section>
                 <h1>content section:</h1>
-                {/* <AboutMe /> */}
+            {AboutMeValue ? <Aboutme/> : null},
+            {PortfolioValue ? <PortfolioH/> : null},
+            {ContactValue ? <ContactH/> : null},
+            {ResumeValue ? <ResumeH/> : null}
             </section>
         </div>
         );
-    }
-
-export default Content;
+}
+    export default Content;
