@@ -1,6 +1,7 @@
 # PortfolioH
 
 ## Badges
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f0067f5a-2f56-484b-acaa-d9b3686a947d/deploy-status)](https://app.netlify.com/sites/portfoliohector/deploys)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 ![alt text](https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=apple&logoColor=white)
 ![alt text](https://img.shields.io/badge/Edx-193A3E?style=for-the-badge&logo=edx&logoColor=white)
