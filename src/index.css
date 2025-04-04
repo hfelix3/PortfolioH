@@ -1,11 +1,13 @@
 /* TODO:ADD STYLE */
 * {
+    /* background-color:black; */
     font-family: helvetica;
     color: #0F334B;
     margin: 3px;
 }
 
 .header {
+    width: 100%;    /* Ensure the section takes up the full width of the page */
     background-color: #abbaba;
     display: flex;
     flex-direction: column;
@@ -34,7 +36,18 @@ button {
     border: 1px solid #e8e8e8;
 }
 
+#Welcome {
+    height: 100%;  /* Make sure the body and html take full height */
+    margin: 0;     /* Remove default margin */
+    display: flex; /* Use Flexbox on the body */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
 .contentSection {
+    /* height: 73vh;  Make the section take up the full height of the viewport */
+    width: 100%;    /* Ensure the section takes up the full width of the page */
+    /* overflow: hidden;  Prevent any content from overflowing and showing scrollbars */
     border-radius: 5px;
     box-shadow: inset 2px 5px 30px lightgray;
 }
@@ -49,12 +62,11 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 30px;
 }
 
 .applications {
     border-radius: 1em;
-    margin: 50px;
+    margin: 0px;
 }
 
 .leftSide {
@@ -85,20 +97,17 @@ button {
     border-radius: 0.5em;
 }
 
-p {
+#firstpi {
     text-indent: 1em;
+}
+
+p {
+    margin-bottom: 20px;  /* Adds 20px space below each paragraph */
 }
 
 .applications {
     height: 250px;
     width: 400px;
-}
-
-.links {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    justify-content: flex-end;
 }
 
 .resumeTitle {
@@ -126,14 +135,30 @@ p {
     color: blue;
 }
 
+#clickable:hover {
+    color: blue;
+}
+
 a {
     margin: 5px;
 }
 
+.links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
 footer {
     text-align: center;
-    padding: 5px;
     background-color: #abbaba;
     color: #000;
+    width: 100%;    /* Ensure the section takes up the full width of the page */
     border-radius: 0.5em;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }

@@ -4,7 +4,7 @@ function Aboutme() {
       <section className="aboutMeDescription">
       <h2>About Me</h2>
         <img className= "profilePic" src='src/assets/images/IMG_0654.JPG'/>
-        <p>
+        <p id= 'firstpi'>
         Hi, I'm Hector, a passionate web developer with a strong foundation in HTML, CSS, JavaScript, and modern frameworks like React. Through my ongoing development journey, I’ve honed my skills in building user-friendly, responsive web applications, always keeping the end-user’s experience in mind.
         </p>
         <p>

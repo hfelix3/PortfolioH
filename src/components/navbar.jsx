@@ -41,16 +41,16 @@ export default function Navbar() {
         <nav className="nav">
                 {/* make Anchors buttons? that have an event handler like onClick={props.clickHandler} "from the parent file" or onClick={function name here} "within file calling on the function" look at 40:00 in react day 2 zoom */}
                 <div style={linkStyle}>
-                    <button type ="button" onClick={handleClickAbout} href="#aboutme" >About Me</button>
+                    <button id='clickable' type ="button" onClick={handleClickAbout} href="#aboutme" >About Me</button>
                 </div>
                 <div style={linkStyle}>
-                    <button type ="button" onClick={handleClickPort} href="#portfolio" >Portfolio</button>
+                    <button id='clickable' type ="button" onClick={handleClickPort} href="#portfolio" >Portfolio</button>
                 </div>
                 <div style={linkStyle}>
-                    <button type ="button" onClick={handleClickCont} href="#contact" >Contact</button>
+                    <button id='clickable' type ="button" onClick={handleClickCont} href="#contact" >Contact</button>
                 </div>
                 <div style={linkStyle}>
-                    <button type ="button" onClick={handleClickRes} href="#resume" >Resume</button>
+                    <button id='clickable' type ="button" onClick={handleClickRes} href="#resume" >Resume</button>
                 </div>
         </nav>
         <Content 

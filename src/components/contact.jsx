@@ -22,6 +22,23 @@ function ContactH() {
   return (
     <div>
       <h2 className="contactForm">Contact Me</h2>
+      <section className='links'>
+        <a href="https://github.com/hfelix3">
+          <button id="clickable" type="button">
+            Github
+          </button>
+        </a>
+        <a href="https://www.linkedin.com/in/hector-felix-del-valle-174451167">
+        <button id="clickable" type="button">
+          LinkedIn
+        </button>
+        </a>
+        <a href = 'https://stackoverflow.com/'>
+        <button id="clickable" type="button">
+          Stackoverflow
+        </button>
+        </a>
+      </section>
       <form className="contactForm" onSubmit={handleSubmit}>
         <input
           name="Name"
@@ -53,7 +70,7 @@ function ContactH() {
           required
         ></textarea>
 
-        <button type="submit">Submit</button>
+        <button id='clickable' type="submit">Submit</button>
         {!IsValid && <p>Please enter a valid email address.</p>}
       </form>
     </div>

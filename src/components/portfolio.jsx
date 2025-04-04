@@ -4,7 +4,7 @@ function PortfolioH(prop) {
       <h2 className="portfolio">Portfolio</h2>
       <div className="portfolioImages">
         <section className="leftSide">
-          <a href="https://github.com/hfelix3/svg-logo-generator">
+          <a href="https://github.com/hfelix3/svg-logo-generator"> {/*CHECK ON HAVING FUNCTIONING IMAGES TAKING YOU TO THE APP OR PAGE*/}
             <h3>svg-logo-generator Repository</h3>
           </a>
           <a href="">

@@ -30,7 +30,7 @@ function ResumeH() {
           </section>
         </div>
 
-        <a className="downloadLink" href="src/assets/Resume.pdf" download>Click here to download my resume PDF</a>
+        <a id='clickable' className="downloadLink" href="src/assets/Resume.pdf" download>Click here to download my resume PDF</a>
 </>
   );
 };
