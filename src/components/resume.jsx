@@ -1,9 +1,9 @@
-function ResumeH(prop) {
-    return (
-      <div>
-        <h2 class="resumeTitle">My Resume</h2>
-        <div class="Proficiencies">
-          <section class="frontEnd">
+function ResumeH() {
+  return (
+<>
+    <h2 className="resumeTitle">My Resume</h2>
+        <div className="Proficiencies">
+          <section className="frontEnd">
             <h4>Front-end Proficiencies:</h4>
             <ul>
                 <li>HTML</li>
@@ -16,7 +16,7 @@ function ResumeH(prop) {
             </ul>
           </section>
 
-          <section class="backEnd">
+          <section className="backEnd">
             <h4>Back-end Proficiencies:</h4>
             <ul>
                 <li>APIs</li>
@@ -28,12 +28,11 @@ function ResumeH(prop) {
                 <li>GraphQL</li>
             </ul>
           </section>
-      </div>
+        </div>
 
-        <a class="downloadLink" href="src/assets/Resume.pdf" src="" download>Click here to download my resume PDF</a>
-
-      </div>
-    );
-}
+        <a className="downloadLink" href="src/assets/Resume.pdf" download>Click here to download my resume PDF</a>
+</>
+  );
+};
 
 export default ResumeH;
