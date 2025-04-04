@@ -4,7 +4,7 @@
 // Here we would have a child component from the parent in Apps.jsx
 
 function Header() {
-    const headerName = 'PortfolioH';
+    const headerName = 'Hector Felix';
 
     return (
         <header className='header'>

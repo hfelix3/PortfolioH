@@ -5,15 +5,20 @@ function Aboutme() {
       <h2>About Me</h2>
         <img className= "profilePic" src='src/assets/images/IMG_0654.JPG'/>
         <p>
-        My name is Hector I am a web developer looking to expand my skills. I've gained good experience in HTML, CSS, JavaScript and frameworks like React in my current studies. The insurance industry taught me the importance of understanding user needs when designing interfaces. While I'm proud of my progress so far, I know I still have so much more to learn in this rapidly changing field.
+        Hi, I'm Hector, a passionate web developer with a strong foundation in HTML, CSS, JavaScript, and modern frameworks like React. Through my ongoing development journey, I’ve honed my skills in building user-friendly, responsive web applications, always keeping the end-user’s experience in mind.
         </p>
-        
         <p>
-        I have completed my certificate program at Arizona State University. The courses were challenging but rewarding, pushing me to grow as a developer. Although I've been able to pick up new systems quickly in the past, I understand that mastering web development requires ongoing effort. I still consider myself a student.
+        My background in the insurance industry has given me valuable insight into the importance of understanding user needs and designing intuitive interfaces. While I’m proud of my progress, I’m always focused on staying ahead in this fast-paced field, continuously expanding my skill set.
+        </p>
+        <p>
+        I hold a certificate in Web Development from Arizona State University, where I tackled complex projects that have pushed me to grow as a developer. Though I’ve been able to quickly adapt to new technologies, I recognize that mastery in web development is an ongoing process, and I’m committed to further refining my expertise.
         </p>
 
         <p>
-        With my logical thinking and desire to help people, I hope to someday create web solutions that make a real difference. I know listening closely to client needs is crucial. I look forward to transitioning into a full-time software engineering role where I can keep enhancing my skills. I'm eager to take on new challenges that will expand my coding abilities. Above all, I try to stay humble and open-minded. This field requires lifelong dedication and practice. But I'm up for the challenge! I can't wait to see where my web development journey takes me next.
+        I’m excited to transition into a full-time software engineering role, where I can contribute my logical thinking and problem-solving skills while continuing to enhance my development capabilities. I’m eager to tackle new challenges, collaborate with others, and create meaningful web solutions that truly make a difference.
+        </p>
+        <p>
+        My focus is on staying humble, open-minded, and dedicated to lifelong learning. The ever-evolving nature of web development keeps me motivated, and I look forward to seeing where this journey takes me next.
         </p>
       </section>
     </div>
