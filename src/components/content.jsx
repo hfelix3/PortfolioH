@@ -9,7 +9,7 @@ function Content({ AboutMeValue, PortfolioValue, ContactValue, ResumeValue }) {
         return(
         <div>
                 <h1>Welcome!</h1>
-            <section class="contentSection">
+            <section className="contentSection">
             {AboutMeValue ? <Aboutme/> : null}
             {PortfolioValue ? <PortfolioH/> : null}
             {ContactValue ? <ContactH/> : null}

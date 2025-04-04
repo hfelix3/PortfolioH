@@ -1,9 +1,9 @@
-function Aboutme(prop) {
+function Aboutme() {
   return (
     <div>
-      <section class="aboutMeDescription">
+      <section className="aboutMeDescription">
       <h2>About Me</h2>
-        <img class= "profilePic" src='src/assets/images/IMG_0654.JPG'/>
+        <img className= "profilePic" src='src/assets/images/IMG_0654.JPG'/>
         <p>
         My name is Hector I am a web developer looking to expand my skills. I've gained good experience in HTML, CSS, JavaScript and frameworks like React in my current studies. The insurance industry taught me the importance of understanding user needs when designing interfaces. While I'm proud of my progress so far, I know I still have so much more to learn in this rapidly changing field.
         </p>

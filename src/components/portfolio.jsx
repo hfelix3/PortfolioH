@@ -1,15 +1,15 @@
 function PortfolioH(prop) {
   return (
     <div>
-      <h2 class="portfolio">Portfolio</h2>
-      <div class="portfolioImages">
-        <section class="leftSide">
+      <h2 className="portfolio">Portfolio</h2>
+      <div className="portfolioImages">
+        <section className="leftSide">
           <a href="https://github.com/hfelix3/svg-logo-generator">
             <h3>svg-logo-generator Repository</h3>
           </a>
           <a href="">
             <img
-              class="applications"
+              className="applications"
               src="src/assets/images/svggenerator.png"
               onclick="openLink1(https://github.com/hfelix3/svg-logo-generator); openLink2();"
               alt="svg-logo-generator"
@@ -40,19 +40,19 @@ function PortfolioH(prop) {
           </a>
           <a href="">
             <img
-              class="applications"
+              className="applications"
               src="src/assets/images/networkcalls.png"
               alt="NetworkCalls"
             />
           </a>
         </section>
-        <section class="rightSide">
+        <section className="rightSide">
           <a href="https://github.com/hfelix3/ironblog">
             <h3>IronBlog Repository</h3>
           </a>
           <a href="https://enigmatic-mesa-07357-505d8360f665.herokuapp.com/">
             <img
-              class="applications"
+              className="applications"
               src="src/assets/images/ironblog.png"
               alt="IronBlog"
             />
@@ -62,7 +62,7 @@ function PortfolioH(prop) {
           </a>
           <a href="https://plan1t-5fa59fd2b161.herokuapp.com/">
             <img
-              class="applications"
+              className="applications"
               src="src/assets/images/planit.png"
               alt="PlanIt"
             />
@@ -72,7 +72,7 @@ function PortfolioH(prop) {
           </a>
           <a href="">
             <img
-              class="applications"
+              className="applications"
               src="src/assets/images/jenesaispasthepassgen.png"
               alt="Jenesaispasthepassgen"
             />
@@ -81,6 +81,6 @@ function PortfolioH(prop) {
       </div>
     </div>
   );
-}
+};
 
 export default PortfolioH;

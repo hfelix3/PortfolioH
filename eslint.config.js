@@ -16,8 +16,17 @@ export default defineConfig([
   },
   pluginReact.configs.flat.recommended,
   {
+    parserOptions: {
+      ecmaVersion: 2020,  // Ensures ECMAScript 2020 (ES11) syntax support
+      sourceType: "module",  // Allows import/export syntax
+      ecmaFeatures: {
+        jsx: true,  // Ensures JSX is enabled
+      },
+    },
+  
     rules: {
       'react/react-in-jsx-scope': 'off', //Fix the JSX scope error
+      "react/prop-types": "off", //No more warnings about missing PropTypes
     },
   },
 ]);

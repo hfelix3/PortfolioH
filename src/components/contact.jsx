@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import emailValidator from 'email-validator';
 
-function ContactH(prop) {
+function ContactH() {
   const [NameValue, SetName] = useState('');
 
   const [EmailValue, SetEmail] = useState('');
@@ -21,8 +21,8 @@ function ContactH(prop) {
 
   return (
     <div>
-      <h2 class="contactForm">Contact Me</h2>
-      <form class="contactForm" onSubmit={handleSubmit}>
+      <h2 className="contactForm">Contact Me</h2>
+      <form className="contactForm" onSubmit={handleSubmit}>
         <input
           name="Name"
           value={NameValue}
