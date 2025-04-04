@@ -21,7 +21,7 @@ function ContactH() {
 
   return (
     <div>
-      <h2 className="contactForm">Contact Me</h2>
+      <h2 className="title">Contact Me</h2>
       <section className='links'>
         <a href="https://github.com/hfelix3">
           <button id="clickable" type="button">

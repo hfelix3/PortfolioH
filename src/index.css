@@ -1,23 +1,18 @@
 /* TODO:ADD STYLE */
 * {
-    /* background-color:black; */
-    font-family: helvetica;
-    color: #0F334B;
-    margin: 3px;
+    background-color:black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
 }
 
 .header {
-    width: 100%;    /* Ensure the section takes up the full width of the page */
-    background-color: #abbaba;
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-radius: 0.5em;
 }
 
 .header h1 {
-    color: white;
-    text-align: left;
+
 }
 
 .nav {
@@ -25,6 +20,7 @@
     flex-direction: row;
     align-items: flex-end;
     justify-content: flex-end;
+    background: linear-gradient(to right, black, darkslategray);
 }
 
 button {
@@ -32,27 +28,21 @@ button {
     padding: 0.7em 1.7em;
     font-size: 12px;
     border-radius: 0.5em;
-    background: #e8e8e8;
     border: 1px solid #e8e8e8;
+    background: linear-gradient(to right, black, darkslategray);
 }
 
 #Welcome {
-    height: 100%;  /* Make sure the body and html take full height */
-    margin: 0;     /* Remove default margin */
     display: flex; /* Use Flexbox on the body */
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
 }
 
 .contentSection {
-    /* height: 73vh;  Make the section take up the full height of the viewport */
-    width: 100%;    /* Ensure the section takes up the full width of the page */
-    /* overflow: hidden;  Prevent any content from overflowing and showing scrollbars */
-    border-radius: 5px;
-    box-shadow: inset 2px 5px 30px lightgray;
+   
 }
 
-.portfolio {
+.title {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -62,10 +52,12 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px;
 }
 
 .applications {
     border-radius: 1em;
+    border-color: darkslategray;
     margin: 0px;
 }
 
@@ -73,12 +65,14 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 20px;
 }
 
 .rightSide {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 20px;
 }
 .contactForm {
     display: flex;
@@ -87,9 +81,11 @@ button {
 }
 
 .profilePic {
-    height: 100px;
-    width: 100px;
-    border-radius: 5em;
+    height: 200px;
+    width: 200px;
+    border-radius: 10em;
+    border: 1px solid darkslategray;
+    box-shadow: 9px 5px 19px darkslategray;
 }
 
 .aboutMeDescription {
@@ -110,11 +106,6 @@ p {
     width: 400px;
 }
 
-.resumeTitle {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
 .Proficiencies {
     display: flex;
@@ -136,7 +127,7 @@ p {
 }
 
 #clickable:hover {
-    color: blue;
+    color: darkslategray;
 }
 
 a {
@@ -152,13 +143,4 @@ a {
 
 footer {
     text-align: center;
-    background-color: #abbaba;
-    color: #000;
-    width: 100%;    /* Ensure the section takes up the full width of the page */
-    border-radius: 0.5em;
-    padding: 5px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }

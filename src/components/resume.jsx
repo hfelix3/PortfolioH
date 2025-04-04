@@ -1,7 +1,7 @@
 function ResumeH() {
   return (
 <>
-    <h2 className="resumeTitle">My Resume</h2>
+    <h2 className="title">My Resume</h2>
         <div className="Proficiencies">
           <section className="frontEnd">
             <h4>Front-end Proficiencies:</h4>
