@@ -6,7 +6,7 @@ import Footer from './components/footer.jsx';
 // This is my main component or "Parent component" function
 function App() {
     return (
-        <div>
+        <div className="page-container">
             <Header />
             <Navbar />
             <Footer />

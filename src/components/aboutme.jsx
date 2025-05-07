@@ -2,10 +2,9 @@ function Aboutme() {
   return (
     <div>
       <section className="aboutMeDescription">
-      <h2 id= 'firstpi'>About Me</h2>
         <img className= "profilePic" src='src/assets/images/IMG_0654.JPG'/>
         <p id= 'firstpi'>
-        Hi, I'm Hector, a passionate web developer with a strong foundation in HTML, CSS, JavaScript, and modern frameworks like React. Through my ongoing development journey, I’ve honed my skills in building user-friendly, responsive web applications, always keeping the end-user’s experience in mind.
+        Hi! I'm Hector, a passionate web developer with a strong foundation in HTML, CSS, JavaScript, and modern frameworks like React. Through my ongoing development journey, I’ve honed my skills in building user-friendly, responsive web applications, always keeping the end-user’s experience in mind.
         </p>
         <p>
         My background in the insurance industry has given me valuable insight into the importance of understanding user needs and designing intuitive interfaces. While I’m proud of my progress, I’m always focused on staying ahead in this fast-paced field, continuously expanding my skill set.

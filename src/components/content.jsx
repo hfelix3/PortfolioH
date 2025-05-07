@@ -7,7 +7,7 @@ import ResumeH from '../components/resume.jsx';
 function Content({ AboutMeValue, PortfolioValue, ContactValue, ResumeValue }) {
 
         return(
-        <div>
+        <div className="content">
                 <h1 id="Welcome">Welcome!</h1>
             <section className="contentSection">
             {AboutMeValue ? <Aboutme/> : null}

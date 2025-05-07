@@ -45,7 +45,7 @@ function ContactH() {
           value={NameValue}
           onChange={(e) => SetName(e.target.value)}
           onBlur={((e) => SetName(e.target.value))}
-          placeholder="Enter Name"
+          placeholder="Your Name"
           required
         />
 
@@ -54,13 +54,13 @@ function ContactH() {
           value={EmailValue}
           onChange={((e) => SetEmail(e.target.value))}
           onBlur={(e) => SetEmail(e.target.value)}
-          placeholder="Enter E-mail"
+          placeholder="Your E-mail"
           required
         />
 
         <textarea
           id="textedTyped"
-          placeholder="Write a message here"
+          placeholder="Your message here"
           rows="5"
           cols="33"
           name="Message"
